@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-This project demonstrates my ability to design, deploy, and manage cloud infrastructure using Infrastructure as Code (IaC) principles. It showcases practical DevOps skills including containerization, cloud architecture, and automated deployment.
+This project demonstrates ability to design, deploy, and manage cloud infrastructure using Infrastructure as Code (IaC) principles. It showcases practical DevOps skills including containerization, cloud architecture, and automated deployment.
 
 ## 🛠 Technologies Used
 
