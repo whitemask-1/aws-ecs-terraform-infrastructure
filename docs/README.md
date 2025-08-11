@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-Add the following screenshots to showcase your project:
+The following screenshots have been added to showcase the project:
 
 ### 1. Terraform Apply Success
 - Screenshot of `terraform apply` completing successfully
@@ -23,15 +23,3 @@ Add the following screenshots to showcase your project:
 ### 5. Terraform Destroy
 - Screenshot of `terraform destroy` completing
 - Shows proper cleanup and cost management
-
-## How to Add Screenshots
-
-1. Take screenshots of each step
-2. Save them as:
-   - `terraform-apply.png`
-   - `aws-ecs-console.png`
-   - `nginx-running.png`
-   - `cloudwatch-logs.png`
-   - `terraform-destroy.png`
-3. Add them to this `docs/` folder
-4. Update the main README.md to reference them
