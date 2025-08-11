@@ -5,8 +5,6 @@
 
 > **DevOps Portfolio Project** - Demonstrating Infrastructure as Code, containerization, and cloud deployment skills
 
-Create your first AWS infrastructure using **Terraform** and **ECS Fargate**.
-
 ## 🎯 Portfolio Highlights
 
 ✅ **Infrastructure as Code** - Terraform configuration for reproducible deployments  
@@ -24,14 +22,6 @@ Create your first AWS infrastructure using **Terraform** and **ECS Fargate**.
 - CloudWatch log group for monitoring
 - Security group for network access
 - IAM roles for proper permissions
-
----
-
-## 🧰 Prerequisites
-
-- [AWS CLI](https://aws.amazon.com/cli/) installed and configured
-- [Terraform](https://www.terraform.io/downloads.html) installed
-- AWS account (Free Tier is fine)
 
 ---
 
@@ -131,57 +121,7 @@ aws logs describe-log-streams --log-group-name $LOG_GROUP
 
 ---
 
-## 🐞 Troubleshooting
-
-### ❌ Error: `NoCredentialsError`
-
-* Run `aws configure`
-* Confirm with `aws sts get-caller-identity`
-
----
-
-### ❌ Error: `UnauthorizedOperation`
-
-* Attach `AdministratorAccess` policy to your IAM user
-* Ensure ECS, EC2, IAM, and CloudWatch permissions are present
-
----
-
-### ❌ Task Keeps Stopping
-
-* Check logs in CloudWatch
-* Verify container image is valid and accessible
-* Ensure sufficient CPU/memory values
-
----
-
-### ❌ Website Not Loading
-
-* Wait 2–3 minutes for app to start
-* Confirm public IP assignment
-* Ensure port 80 is open in security group
-
----
-
-### ❌ Error: `ResourceAlreadyExistsException`
-
-* Edit `terraform.tfvars` to use a unique cluster name
-* Or destroy existing infra: `terraform destroy`
-
----
-
-## 🧹 Clean Up (Important!)
-
-```bash
-terraform destroy
-# Confirm with 'yes'
-```
-
-Then verify in AWS Console that no resources remain to avoid unexpected charges.
-
----
-
-## 🎓 What You Learned
+## 🎓 What I Learned
 
 ✅ Infrastructure as Code with Terraform
 ✅ AWS ECS Fargate (serverless containers)
@@ -189,14 +129,6 @@ Then verify in AWS Console that no resources remain to avoid unexpected charges.
 ✅ Security Groups & VPC
 ✅ CloudWatch Logging
 ✅ AWS CLI Commands
-
----
-
-## 🔄 Next Steps
-
-* Try deploying a different Docker image
-* Modify the security group to allow other ports
-* Move on to **Project 2: Automated Deployment Pipeline**
 
 ---
 
